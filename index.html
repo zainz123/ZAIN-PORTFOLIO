@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zain PortFolio </title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body onload="document.body.style.opacity='1'">
+    <div class="hero">
+        <div class="nav">
+            <div class="logo">
+                <h2 style="text-transform: uppercase;">muhammad zain zafar</h2>
+               
+            </div>
+            <div class="link">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                
+            </div>
+        </div>
+
+        <div class="main">
+           
+            <div class="image-container">
+                <img src="img/z.jpeg" alt="men" class="men"/>
+            </div>
+            <div class="main-detil">
+                <p>Hello i'm</p>
+                <h1 style="text-transform: uppercase;">muhammad zain zafar</h1>
+               
+                <h4>Frontend Developer</h4>
+
+                <div class="btn">
+                    <!-- <button type="submit">Download CV</button> -->
+                    <div class="btn">
+                        <button type="button" onclick="downloadCV()">Download CV</button>
+                       
+                    </div>
+                    
+                    <script>
+                        function downloadCV() {
+                            // Create a link element
+                            var link = document.createElement('a');
+                            // Set the href attribute to the URL of the CV file
+                            link.setAttribute('href', 'img/M.ZAIN ZAFAR.pdf');
+                            // Set the download attribute with the filename you want the file to be downloaded as
+                            link.setAttribute('download', 'zain_cv.pdf');
+                            // Simulate a click on the link to trigger the download
+                            link.click();
+                        }
+                    </script>
+                    
+                    
+                    <!-- <button type="submit" class="btn-2">Hire Me</button> -->
+                </div>
+
+                <!-- <div class="social">
+                    <i class='bx bxl-linkedin'></i>
+                    <i class='bx bxl-instagram'></i>
+                </div> -->
+                <div class="social">
+                    <a href="https://www.linkedin.com/your-profile-url" target="_blank">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="https://www.instagram.com/your-profile-url" target="_blank">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- <div class="sub-btn">
+            <a href="https://www.youtube.com/channel/UCUuyUTlJcHzZJJeYpYhUI-Q/">SUBSCRIBE</a>
+        </div> -->
+    </div>
+</body>
+
+</html>
