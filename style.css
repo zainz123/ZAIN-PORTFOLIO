@@ -58,7 +58,7 @@ ul a .active {
 }
 
 .main .men {
-    width: 400px;
+    width: 300px;
     transition: all 2000ms ease;
     cursor: pointer;
 }
