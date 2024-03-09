@@ -160,3 +160,43 @@ ul a .active {
 .back-home a:hover {
     background-color: #333;
 }
+
+/* style.css */
+/* Add these styles for responsiveness */
+
+/* Adjustments for mobile screens */
+@media only screen and (max-width: 768px) {
+    .hero {
+        padding: 20px; /* Adjust spacing */
+    }
+    .nav {
+        flex-direction: column; /* Stack navigation vertically */
+    }
+    .logo {
+        text-align: center; /* Center the logo */
+        margin-bottom: 20px; /* Add some space below the logo */
+    }
+    .link {
+        text-align: center; /* Center the navigation links */
+    }
+    .main {
+        flex-direction: column; /* Stack main content vertically */
+    }
+    .main-detil {
+        text-align: center; /* Center main content */
+    }
+}
+
+/* Adjustments for larger screens */
+@media only screen and (min-width: 768px) {
+    .nav {
+        justify-content: space-between; /* Spread navigation links */
+    }
+    .logo {
+        margin-bottom: 0; /* Remove extra margin */
+    }
+    .link {
+        display: flex; /* Display navigation links in a row */
+    }
+}
+
